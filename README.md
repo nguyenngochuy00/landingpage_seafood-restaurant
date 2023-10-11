@@ -1,0 +1,5 @@
+- Design from figma: https://www.figma.com/file/svHDzD1Cs4vqrEirxDXjcm/Seafood-Restaurant-Landing-Page-(NsuomNam)-(Community)?type=design&node-id=0-1&mode=design&t=2nGh5eanYqrAnFAu-0
+- Dimensions from figma: 1440px and 390px
+- Link github: https://github.com/nguyenngochuy00/landingpage_seafood-restaurant
+- Linnk web: https://landingpage-seafood-restaurant.netlify.app/
+- Technology used: HTML, CSS/SCSS
