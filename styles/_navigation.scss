@@ -1,0 +1,98 @@
+.navigation {
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    // padding: 0 20px 0 20px;
+    padding: 0 40px 0 40px;
+
+    // @media (min-width: 1440px) {
+              
+    // }
+
+    @media (max-width: 768px) {
+        padding: 0 20px;
+    }
+
+    &-logo {
+        display: flex;
+        align-items: center;
+
+        &-link {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #d2a070 !important;
+            margin-right: 5px;
+        }
+
+        &-title {
+            font-family: "Roslindale";
+            font-size: 20px;
+            color: white;
+
+            // @media (max-width: 1440px) {
+            //     transform: scaleY(1.5);
+            // }
+        }
+    }
+
+    &-links {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+
+        &-item {
+            font-family: "Apercu Pro";
+            font-size: 15px;
+            color: #f6f6f6;
+            padding: 0 20px;                
+
+            // @media (max-width: 1440px) {
+            //     padding: 0 20px;                
+            // }
+        }
+    }
+
+    &-shopping_cart {
+        display: flex;
+        align-items: center;
+        position: relative;
+        // padding-right: 20px;
+
+        // @media (max-width: 1440px) {
+        //     padding-right: 0;
+        // }
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+
+        &-title {
+            font-family: "Apercu Pro";
+            font-size: 15px;
+            text-align: center;
+            color: #f6f6f6;
+            background-color: #d2a070;
+            padding: 10px 20px;
+        }
+
+        &-number {
+            position: absolute;
+            font-size: 10px;
+            text-align: center;
+            border-radius: 100%;
+            color: black;
+            background-color: white;
+            max-width: min-content;
+            padding: 5px 8px;
+            margin-left: 115px;
+            margin-bottom: 30px;
+        }
+    }
+}

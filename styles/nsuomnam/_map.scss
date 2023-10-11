@@ -1,0 +1,11 @@
+.nsuomnam-map {
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+    width: 100%;
+
+    &-img {
+        flex: 1;
+        max-width: 100%;
+    }
+}

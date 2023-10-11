@@ -1,0 +1,22 @@
+@import './styles/navigation';
+@import './styles/nsuomnam/hero';
+@import './styles/nsuomnam/about';
+@import './styles/nsuomnam/image';
+@import './styles/nsuomnam/menu';
+@import './styles/nsuomnam/gallery';
+@import './styles/nsuomnam/action';
+@import './styles/nsuomnam/map';
+@import './styles/footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // overflow-x: hidden;
+}
+
+body {
+    // overflow-x: hidden;
+    width: 100%;
+    overflow-x: hidden;
+}

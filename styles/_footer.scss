@@ -1,0 +1,180 @@
+.footer {
+    &-wrap {
+        background-color: #151515;
+        color: white;
+        display: grid;
+        grid-template-areas:
+            "about links social order"
+            "img img img img";
+
+        @media (max-width: 912px) {
+            grid-template-areas:
+                "about links"
+                "social order"
+                "img img";
+        }
+
+        &-about {
+            margin-top: 40px;
+            grid-area: about;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &-logo {
+                display: flex;
+                align-items: center;
+                padding-bottom: 45px;
+
+                &-link {
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: #d2a070 !important;
+                    margin-right: 5px;
+                }
+
+                &-title {
+                    font-family: "Roslindale";
+                    font-size: 18px;
+                    color: #ffffff;
+                    transform: scaleY(1.5);
+                }
+            }
+
+            &-time,
+            &-position {
+                font-family: "Apercu Pro";
+                font-size: 10px;
+                line-height: 12px;
+                color: #7c7c7c;
+            }
+        }
+
+        &-links {
+            margin-top: 40px;
+            grid-area: links;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            &-history,
+            &-menu,
+            &-trim,
+            &-map {
+                text-decoration: none;
+                color: #f6f6f6;
+                font-family: "Apercu Pro";
+                font-size: 12px;
+                line-height: 15px;
+            }
+
+            &-history {
+            }
+
+            &-menu {
+            }
+
+            &-trim {
+            }
+
+            &-map {
+            }
+        }
+
+        &-social {
+            margin-top: 40px;
+            grid-area: social;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            &-insta,
+            &-fb,
+            &-youtube,
+            &-twitter {
+                font-family: "Apercu Pro";
+                font-size: 12px;
+                line-height: 15px;
+                color: #7c7c7c;
+            }
+
+            &-insta {
+            }
+
+            &-fb {
+            }
+
+            &-youtube {
+            }
+
+            &-twitter {
+            }
+        }
+
+        &-order {
+            margin-top: 40px;
+            grid-area: order;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &-button {
+                display: flex;
+                align-items: center;
+                border: 1px solid #d2a070;
+                // position: relative;
+
+                &-title {
+                    font-family: "Apercu Pro";
+                    font-size: 15px;
+                    text-align: center;
+                    color: #f6f6f6;
+                    background-color: #d2a070;
+                    padding: 10px 20px;
+                    // margin-right: 40px;
+                }
+
+                &-number {
+                    position: absolute;
+                    font-size: 10px;
+                    text-align: center;
+                    border-radius: 100%;
+                    color: black;
+                    background-color: white;
+                    max-width: min-content;
+                    padding: 5px 8px;
+                    margin-left: 115px;
+                    margin-bottom: 30px;
+                }
+            }
+
+            &-message {
+                font-family: "Apercu Pro";
+                font-size: 10px;
+                line-height: 12px;
+                // text-align: right;
+                color: #7c7c7c;
+                padding-top: 27px;
+            }
+        }
+
+        &-img {
+            margin-top: 40px;
+            grid-area: img;
+            display: flex;
+
+            &-cover {
+                flex: 1;
+                max-width: 100vw;
+            }
+        }
+    }
+
+    &-nav {
+        height: 70px;
+        background-color: black;
+    }
+}

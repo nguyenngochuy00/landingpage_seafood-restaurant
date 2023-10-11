@@ -1,0 +1,460 @@
+.nsuomnam-menu {
+    padding: 120px 40px 120px 40px;
+    // @media (max-width: 1440px) {
+    //     padding: 120px 40px 120px 40px;
+    // }
+
+    @media (max-width: 768px) {
+        padding: 120px 0;
+    }
+
+    &-title_wrap {
+        display: flex;
+
+        @media (max-width: 768px) {
+            padding: 0 20px;
+        }
+
+        &-text,
+        &-title {
+            color: #151515;
+        }
+
+        &-text {
+            flex-grow: 1;
+            font-family: "Apercu Pro";
+            font-size: 11.25px;
+            line-height: 14px;
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+
+        &-title {
+            flex-grow: 9;
+            text-align: right;
+            font-family: "Roslindale";
+            // font-size: 2.5em;
+            text-transform: uppercase;
+            font-size: 42px;
+            text-align: right;
+            // transform: scaleY(1.5);
+            // padding-top: 8px;
+
+            // @media (max-width: 1440px) {
+            //     font-size: 42px;
+            //     text-align: right;
+            //     transform: scaleY(1.5);
+            //     padding-top: 8px;
+            // }
+
+            @media (max-width: 1400px) {
+                font-size: 40px !important;
+            }
+
+            @media (max-width: 1200px) {
+                font-size: 35px !important;
+            }
+
+            @media (max-width: 992px) {
+                font-size: 28px !important;
+            }
+
+            @media (max-width: 768px) {
+                font-size: 28px !important;
+            }
+
+            @media (max-width: 576px) {
+                font-size: 28px;
+            }
+        }
+    }
+
+    &-salmon_wrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 100%;
+        padding-top: 40px;   
+
+        // @media (max-width: 1440px) {
+        //     padding-top: 40px;      
+        // }
+
+        @media (max-width: 768px) {
+            grid-template-areas:
+                "text"
+                "img1"
+                "img2"
+                "img3"
+                "img4"
+                "img5";
+            grid-template-columns: 1fr;
+        }
+
+        &_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            @media (max-width: 768px) {
+                grid-area: text;
+                padding: 0 20px;
+            }
+
+            &_top,
+            &_bottom {
+                color: #151515;
+
+                @media (max-width: 912px) {
+                }
+            }
+
+            &_top {
+                // margin-bottom: 400px;
+                font-family: "Apercu Pro";
+                font-size: 11.25px;
+                line-height: 14px;
+
+                @media (max-width: 1024px) {
+                    margin-bottom: 210px;
+                }
+
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }
+
+            &_bottom {
+                &_1 {
+                    // margin-top: -50px;
+                    font-family: "Roslindale";
+                    // font-size: 1.9em;
+                    line-height: 31px;
+                    text-transform: uppercase;
+                    font-size: 20.25px;
+
+                    // @media (max-width: 1440px) {
+                    //     font-size: 20.25px;
+                    //     transform: scaleY(1.5);
+                    // }
+
+                    @media (max-width: 1400px) {
+                        font-size: 20.25px;
+                    }
+
+                    @media (max-width: 1200px) {
+                        font-size: 18.25px;
+                    }
+
+                    @media (max-width: 992px) {
+                        font-size: 15.25px;
+                    }
+
+                    @media (max-width: 768px) {
+                        font-size: 2.8em;
+                        margin-top: 40px;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 32.25px;
+                        margin-top: 40px;
+                    }
+                }
+
+                &_2 {
+                    font-family: "Apercu Pro";
+                    // font-size: 1em;
+                    // line-height: 18px;
+                    width: 100%;
+                    font-size: 15.5px;
+
+                    // @media (max-width: 1440px) {
+                    //     font-size: 15.5px;          
+                    // }
+
+                    @media (max-width: 1400px) {
+                        font-size: 0.8em;
+                    }
+
+                    @media (max-width: 768px) {
+                        font-size: 1.2em;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+
+        &_img1,
+        &_img2,
+        &_img3,
+        &_img4,
+        &_img5,
+        &_text {
+            width: 100%;
+            height: 100%;
+
+            // @media (max-width: 1400px) {
+            //     width: 100%;
+            //     height: 100%;
+            // }
+        }
+
+        &_img1 {
+            @media (max-width: 768px) {
+                grid-area: img1;
+                width: 100%;
+            }
+        }
+
+        &_img2 {
+            @media (max-width: 768px) {
+                grid-area: img2;
+                width: 100%;
+            }
+        }
+
+        &_img2 {
+            @media (max-width: 768px) {
+                grid-area: img2;
+                width: 100%;
+            }
+        }
+
+        &_img2 {
+            @media (max-width: 768px) {
+                grid-area: img2;
+                width: 100%;
+            }
+        }
+
+        &_img2 {
+            @media (max-width: 768px) {
+                grid-area: img2;
+                width: 100%;
+            }
+        }
+    }
+
+    &-seafood_soup {
+        padding-top: 60px; 
+        // @media (max-width: 1440px) {
+        //     padding-top: 60px;            
+        // }
+
+        &-title {
+            font-family: "Roslindale";
+            // font-size: 6em;
+            color: #151515;
+            text-transform: uppercase;
+            text-align: center;
+            padding-bottom: 40px;
+            font-size: 115px;
+
+            // @media (max-width: 1440px) {
+            //     padding-bottom: 40px;
+            //     font-size: 115px;
+            //     transform: scaleY(1.4);
+            // }
+
+            @media (max-width: 1400px) {
+                font-size: 110px;
+            }
+
+            @media (max-width: 1200px) {
+                font-size: 90px;
+            }
+
+            @media (max-width: 992px) {
+                font-size: 4.5em;
+            }
+
+            @media (max-width: 768px) {
+                font-size: 3em;
+                text-align: left;
+                padding: 0 20px;
+            }
+
+            @media (max-width: 576px) {
+                font-size: 2.5em;
+                text-align: left;
+            }
+        }
+
+        &-content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            width: 100%;
+
+            @media (max-width: 912px) {
+                grid-template-areas:
+                    "img1 text1 img2"
+                    "img3 img4 text2";
+            }
+
+            @media (max-width: 768px) {
+                grid-template-areas:
+                    "text1"
+                    "img1"
+                    "img2"
+                    "text2"
+                    "img3"
+                    "img4";
+                grid-template-columns: auto;
+            }
+
+            &-img1,
+            &-text1,
+            &-img2,
+            &-img3,
+            &-img4,
+            &-text2 {
+                width: 100%;
+                height: 100%;
+                color: #151515;
+            }
+
+            @media (max-width: 768px) {
+                &-img1 {
+                    grid-area: img1;
+                    display: flex;
+                    align-items: flex-start;
+                }
+
+                &-img2 {
+                    grid-area: img2;
+                    width: 100%;
+                }
+
+                &-img3 {
+                    grid-area: img3;
+                    width: 100%;
+                }
+
+                &-img4 {
+                    grid-area: img4;
+                    width: 100%;
+                }
+            }
+
+            &-text1 {
+                font-family: "Apercu Pro";
+                // font-size: 1em;
+                // line-height: 19px;
+                font-size: 17px;
+
+                // @media (max-width: 1440px) {
+                //     font-size: 17px; 
+                // }
+
+                @media (max-width: 1400px) {
+                    font-size: 0.9em;
+                }
+
+                @media (max-width: 1200px) {
+                    font-size: 0.8em;
+                }
+
+                @media (max-width: 992px) {
+                    font-size: 0.7em;
+                }
+
+                @media (max-width: 768px) {
+                    grid-area: text1;
+                    font-size: 1em;
+                    margin-bottom: 10px;
+                    padding: 0 20px;
+                }
+
+                @media (max-width: 576px) {
+                    grid-area: text1;
+                    font-size: 0.8em;
+                }
+            }
+
+            &-text2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                @media (max-width: 912px) {
+                    grid-area: text2;
+                }
+
+                @media (max-width: 768px) {
+                    padding: 0 20px;                            
+                }
+
+                &-title {
+                    font-family: "Roslindale";
+                    // font-size: 1.5em;
+                    // line-height: 32px;
+                    text-transform: uppercase;
+                    font-size: 26.25px;
+
+                    // @media (max-width: 1440px) {
+                    //     font-size: 26.25px;
+                    //     transform: scaleY(1.5);                      
+                    // }
+
+                    @media (max-width: 1400px) {
+                        font-size: 1.4em;
+                    }
+
+                    @media (max-width: 1200px) {
+                        font-size: 1.2em;
+                    }
+
+                    @media (max-width: 992px) {
+                        font-size: 1em;
+                    }
+
+                    @media (max-width: 768px) {
+                        font-size: 1.6em;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                    }
+                }
+
+                &-content {
+                    font-family: "Apercu Pro";
+                    // font-size: 1em;
+                    // line-height: 18px;
+                    font-size: 16px;     
+
+                    // @media (max-width: 1440px) {
+                    //     font-size: 16px;                
+                    // }
+
+                    @media (max-width: 1400px) {
+                        font-size: 0.9em;
+                    }
+
+                    @media (max-width: 1200px) {
+                        font-size: 0.8em;
+                    }
+
+                    @media (max-width: 992px) {
+                        font-size: 0.7em;
+                    }
+
+                    @media (max-width: 768px) {
+                        font-size: 1em;
+                        margin-bottom: 40px;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+    }
+}
